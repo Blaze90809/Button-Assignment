@@ -1,0 +1,241 @@
+html, body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.BodyStuff {
+  background-color: lightblue
+
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 100px;
+  padding: 2px;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  text-align: right;
+  font-size: 40px;
+  padding: 5px;
+}
+
+header {
+  background-color: #309EF2;
+  color: white;/* text color */
+  text-align: center;
+  font-size: 52px;
+  padding: 10px;
+}
+p{
+  height: 0;
+}
+
+#container {
+  margin: auto;
+  max-width: 900px;
+}
+
+.BodyStuff {
+  height: auto;
+  width: 100%;
+  float: left;
+  background-color: #045959;
+
+}
+.button-counter{
+  color: white;
+  display: block;
+  height: 100px;
+  max-width: 900px;
+  background-color: #043559;
+  padding: 16px 16px;
+}
+.redCounter{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  width: 20px;
+  height: 60px;
+  margin: 20px;
+  float: left;
+}
+.blueCounter{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  width: 20px;
+  height: 60px;
+  margin: 20px;
+  float: left;
+  text-align: center;
+}
+.greenCounter{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  width: 20px;
+  height: 60px;
+  margin: 20px;
+  float: left;
+}
+.yellowCounter{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  width: 20px;
+  height: 60px;
+  margin: 20px;
+  float: left;
+}
+
+.buttons-bar {
+  display: block;
+  height: auto;
+  background-color: #043559;
+  padding: 16px 16px;
+}
+.small-box-red {
+  background-color: #B31718;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
+
+.small-box-yellow{
+  background-color: #F2DC20;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
+
+.small-box-green{
+  background-color: #4CAF50;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  align-items: center;
+}
+
+.small-box-blue{
+  background-color: #007CA6;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
+.button-green{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
+}
+
+.button-green:hover {background-color: #3e8e41}
+
+.button-green:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button-blue{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #007CA6;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
+}
+
+.button-blue:hover {background-color: #0043A6}
+
+.button-blue:active {
+  background-color: #0043A6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-yellow{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #F2DC20;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
+}
+
+.button-yellow:hover {background-color: #B3A218}
+
+.button-yellow:active {
+  background-color: #B3A218;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-red{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #B31718;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
+}
+
+.button-red:hover {background-color: #8C1213}
+
+.button-red:active {
+  background-color: #8C1213;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* footer {
+position: relative;
+height: 100px;
+width: 100%;
+}
+.copyright {
+position: absolute;
+width: 100%;
+color: #fff;
+line-height: 40px;
+font-size: 0.7em;
+text-align: center;
+bottom:0;
+} */
+
+#center {
+  font-family: 'Stalinist One', cursive;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
